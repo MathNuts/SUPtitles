@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "license": "MIT",
-  "repository": "mathnuts/suptitles"
+  "repository": "mathnuts/suptitles",
   "devDependencies": {
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5"
