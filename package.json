@@ -9,5 +9,13 @@
   "devDependencies": {
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5"
-  }
+  },
+  "keywords": [
+    "pgs",
+    "sup",
+    "subtitles",
+    "video",
+	"html5-video",
+	"blu-ray"
+  ]
 }
