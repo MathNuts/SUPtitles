@@ -1,6 +1,6 @@
 {
   "name": "suptitles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renders Blu-ray subtitles in the browser",
   "type": "module",
   "main": "./dist/index.js",
@@ -15,7 +15,7 @@
     "sup",
     "subtitles",
     "video",
-	"html5-video",
-	"blu-ray"
+    "html5-video",
+    "blu-ray"
   ]
 }
