@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import SUPtitles from './dist'
+import SUPtitles from 'suptitles'
 
 function App() {
   const video = React.useRef(null)

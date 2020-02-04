@@ -13,15 +13,18 @@ Thanks to this [article by TheScorpius666](http://blog.thescorpius.com/index.php
 
 ## Usage
 
-Download ./dist or
+### Install
+
+Download dist folder or run
 
 ```console
-npm i suptitles
+npm i MathNuts/suptitles
 ```
 
+### Import
+
 ```javascript
-// Import from dir or node_modules
-import SUPtitles from './dist/index.js'
+import SUPtitles from 'suptitles' // Or './dir/to/index.js'
 
 const videoElement = document.getElementById('video')
 // Pass video element and subtitle url to constructor
@@ -51,7 +54,7 @@ sup.dispose()
 
 ## Known Issues
 
-- After seeking the current subtitle will be skipped.
+- After seeking the current subtitle will be skipped
 - Probably more..
 
 ## Building
