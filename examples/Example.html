@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div style="width:100%; position:relative;">
+      <!-- Video by Google - "For Bigger Escape" -->
+      <video
+        controls
+        style="width:100%;"
+        id="video"
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+      ></video>
+    </div>
+    <script type="module">
+      import SUPtitles from './dist/index.js'
+      let sup = new SUPtitles(
+        document.getElementById('video'),
+        './exampleSubtitle.sup'
+      )
+    </script>
+  </body>
+</html>

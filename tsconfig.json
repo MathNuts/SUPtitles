@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom", "dom.iterable"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": false,
+    "target": "es6",
+    "outDir": "./dist"
+  }
+}
