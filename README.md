@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/suptitles)
+
 SUPtitles renders Blu-ray subtitles(.sup) in the browser using JS.
 This project is still in development.
 
@@ -22,7 +24,7 @@ ffmpeg -i video.mkv -map 0:s:0 -c copy subtitle.sup
 Download dist folder or run
 
 ```console
-npm i MathNuts/suptitles
+npm i suptitles
 ```
 
 ### Import
