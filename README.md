@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/suptitles)
+[![npm](https://img.shields.io/npm/v/suptitles)](https://www.npmjs.com/package/suptitles)
 
 SUPtitles renders Blu-ray subtitles(.sup) in the browser using JS.
 This project is still in development.
