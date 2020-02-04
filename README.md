@@ -1,15 +1,19 @@
 SUPtitles renders Blu-ray subtitles(.sup) in the browser using JS.
-
-SUPtitles is still in development.
+This project is still in development.
 
 ## Why?
 
 Display subtitles in the browser without using OCR or other methods to pre-process the subtitles.
 No changes to the original text and styling(OCR is not always reliable).
 
-## How
+## How?
 
 Thanks to this [article by TheScorpius666](http://blog.thescorpius.com/index.php/2017/07/15/presentation-graphic-stream-sup-files-bluray-subtitle-format/), I was able to parse the .sup files and display them by using a HTML canvas.
+
+The subtitles(.sup) can be extracted from a video using [ffmpeg](https://www.ffmpeg.org/)
+```console
+ffmpeg -i video.mkv -map 0:s:0 -c copy subtitle.sup
+```
 
 ## Usage
 
@@ -55,6 +59,7 @@ sup.dispose()
 ## Known Issues
 
 - After seeking the current subtitle will be skipped
+- No feedback from constructor, invalid files will not output any error
 - Probably more..
 
 ## Building
